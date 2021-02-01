@@ -8,7 +8,7 @@ export default function Task({
 }) {
   return (
     <div className={`list-item ${state}`}>
-      <label>
+      <label className="checkbox">
         <input
           type="checkbox"
           defaultChecked={state === "TASK_ARCHIVED"}
